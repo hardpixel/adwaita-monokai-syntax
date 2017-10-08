@@ -6,11 +6,11 @@
   "description": "A dark monokai syntax for One Dark with Gnome Adawaita background.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hardpixel/adwaita-monokai"
+    "url": "https://github.com/hardpixel/adwaita-monokai-syntax"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hardpixel/adwaita-monokai/issues"
+    "url": "https://github.com/hardpixel/adwaita-monokai-syntax/issues"
   },
   "engines": {
     "atom": ">1.13.0"
