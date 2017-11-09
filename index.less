@@ -19,13 +19,20 @@ atom-text-editor {
   .gutter {
     background-color: @syntax-background-color;
 
+    &.line-numbers {
+
+      .line-number {
+
+        &.cursor-line-no-selection,
+        &.bracket-matcher {
+          background-color: @syntax-selection-color;
+        }
+      }
+    }
+
     .cursor-line {
       color: @syntax-text-color;
     }
-  }
-
-  .line-number.cursor-line-no-selection {
-    background-color: @syntax-selection-color;
   }
 
   .invisible {
